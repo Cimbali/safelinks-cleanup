@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Safelinks Offr",
+  "description": "Turns Outlook safelinks into the original link.",
+  "version": "1.0",
+  "author": "Magnus Melin",
+  "applications": {
+      "gecko": {
+          "id": "safelinks-offr@mkmelin.iki.fi",
+          "strict_min_version": "91.0"
+      }
+  },
+  "background": {
+      "scripts": [
+          "src/background.js"
+      ]
+  },
+  "permissions": [
+      "messagesModify",
+      "messagesRead",
+      "compose"
+  ]
+}
