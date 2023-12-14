@@ -37,6 +37,7 @@ function cleanup(doc) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+  // inject function code and call it on document object on displayed and composed messages
   messenger.messageDisplayScripts.register({
     js: [{ code: `(${cleanup.toString()})(document);` }],
   });
