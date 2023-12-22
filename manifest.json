@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Safelinks Cleanup",
   "description": "Cleans up Outlook’s “safelinks” tracking",
-  "version": "2.0",
+  "version": "2.1",
   "author": "Cimbali",
   "applications": {
       "gecko": {
